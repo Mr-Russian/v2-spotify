@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "spotifyhud",
+  "version": "${version}",
+  "name": "Spotify HUD",
+  "description": "A neon glass Spotify now-playing popout with playback, seek and volume controls.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.spotifyhud.SpotifyHudMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": ">=26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
